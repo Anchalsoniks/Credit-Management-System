@@ -1,0 +1,105 @@
+<?php
+ include 'connection.php'
+ ?>
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>credit home page</title>
+    <style>
+        #primary{
+            font-size: 60px;
+            text-align: center;
+            color:white;
+            
+        }
+        body{
+            background: url("bg1.jpg") no-repeat center fixed;
+            background-size: cover;
+            
+        
+        }
+        #inner{
+            margin-top: 120px;
+            margin-left: 150px;
+            margin-right: 100px;
+        }
+        
+        
+        
+        
+        #top{
+            background-color: white;
+            margin-top: 100px;
+            padding: 20px;
+            margin-left:300px;
+            font-size:22px;
+            padding-left:127px;
+            padding-right:127px;
+
+
+        }
+        #bottom{
+            background-color: white;
+            margin-top: 40px;
+            padding:20px;
+            margin-left:300px;
+            font-size:22px;
+            padding-left:100px;
+            padding-right:100px;
+
+        }
+        #bottomla{
+            background-color: white;
+            margin-top: 40px;
+            padding:20px;
+            margin-left:440px;
+            font-size:22px;
+            padding-left:100px;
+            padding-right:100px;
+
+        }
+       
+    
+        #form1{
+
+            margin-left:110px;
+        }
+        #form2{
+            margin-left:110px;
+        }
+        #form3{
+            margin-left:110px;
+        }
+    </style>
+</head>
+<body >
+    <div id=inner>
+         <h1 id=primary><u>Credit Management System</u></h1>
+         <form action="viewuser.php">
+         <div id='form1'>
+         <button type="submit" id="top">View user</button>
+         
+    
+         </form>
+         <form action="transferselect.php">
+        </div>
+         <div id='form2'>
+         <button type="submit" id="bottom">Transfer Credit</button>
+    </form>
+
+    </div>
+    <form action="transferhistory.php">
+    </div>
+     <div id='form3'>
+     <button type="submit" id="bottomla">Transfer History</button>
+</form>
+</div>
+</body>
+    </div>
+    
+
+</body>
+</html>
